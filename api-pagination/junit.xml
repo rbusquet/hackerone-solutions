@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" time="2.749">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-08-28T20:22:51" time="1.955" tests="3">
+    <testcase classname=" Renders the correct number of page buttons" name=" Renders the correct number of page buttons" time="0.043">
+    </testcase>
+    <testcase classname=" Renders articles correctly on app did mount" name=" Renders articles correctly on app did mount" time="0.008">
+    </testcase>
+    <testcase classname=" Renders articles correctly after page button click" name=" Renders articles correctly after page button click" time="0.015">
+    </testcase>
+  </testsuite>
+</testsuites>

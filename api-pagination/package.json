@@ -1,0 +1,42 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "10.4.9",
+    "create-react-app": "3.4.1",
+    "fetch-mock": "9.10.7",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
+    "node-fetch": "^2.6.0",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3",
+    "save": "2.4.0"
+  },
+  "scripts": {
+    "start": "HOST=0.0.0.0 PORT=8000 ./node_modules/.bin/react-scripts start",
+    "test": "rm -rf ./junit.xml && ./node_modules/.bin/react-scripts test --verbose --env=jest-environment-jsdom-sixteen --testResultsProcessor ./node_modules/jest-junit"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3",
+    "expect": "^26.4.2",
+    "jest-junit": "^11.1.0",
+    "react-test-renderer": "^16.13.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
